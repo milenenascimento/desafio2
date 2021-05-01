@@ -1,0 +1,44 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(43, 26, 26);
+}
+
+
+.retorno{
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 25%;
+    margin: 0 10px;
+    padding: 5px;
+}    
+
+.botao{
+    padding: 15px 20px;
+    background-color: white;
+    color: #2B1A1A;
+    float: left;
+
+}
+.botao:hover{
+    background-color: #2B1A1A;
+    color: white;
+    cursor: pointer;
+}
