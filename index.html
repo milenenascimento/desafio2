@@ -1,89 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt">
-   
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller - Hospedagem</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
 <body>
-    <link rel="stylesheet" href="style.css"> 
-
-<header class="menu principal">
-<figure>
-    <img src="" alt="logotipo">
-</figure>
-    <section>
-        <article>
-            <h1>Projeto Gulliver</h1>
-            <h3>Os melhores parques para seu destino</h3>
-        </article>
+    <!-- Cabecalho -->
+    <section class="container">
+        <header class="header">
+            <h2><i class="fas fa-plane-departure"></i> Traveller</h2>
+            <nav class="header__menu">
+                <ul class="links__menu">
+                    <li><a href="" class="header__menu__item">Compras</a></li><br>
+                    <li><a href="" class="header__menu__item">Hoteis</a></li><br>
+                    <li><a href="" class="header__menu__item">Gastronomia</a></li><br>
+                    <li><a href="" class="header__menu__item">Eventos</a></li><br>
+                    <li><a href="" class="header__menu__item">Lazer</a></li><br>
+                </ul>
+                <div class="hamburger">
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                </div>
+            </nav>
+        </header>
     </section>
+    <!-- fim do cabecalho -->
+
     
-    <nav>
-        <ul>
-            <li>Página Inicial</li>
-            <li>Entretenimento</li>
-            <li>Cultura</li>
-        </ul>
-    </nav>
-</header>
+    <main>
 
-<main>
-    <section class="busca">
-        <form action="" method="post" id="dados" name="dados" class="form"> 
-        <fieldset>
-            <p>
-                <label for="">Selecione o período para visitação</label>
-                <input type="date" name="disponibilidade" id="disponibilidade1">
-            </p>
-            <p>
-                <label for="">Informe o nome da cidade</label>
-                <input type="text" name="escopo" id="escopo1">
-            </p>
-            <p>
-                <button class="botao" type="submit">Enviar</button>
-            </p>
-        </fieldset>
-    </section>
+        <article class="container__body">
+
+            <section class="box quarto__1">
     
-
-<section class="retorno">
-    <section class="box"> 
-        <article>
-            <h1>Local 1</h1>
-            <h2>Tranquilidade para uma tarde</h2>
-            <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, id!</p>
+                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
+                <h1 class="hotel_nome">Suíte Standard</h1>
+                <h3 class="hotel_cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+    
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+                <br>
+                <p>
+                    <a href="" class="hotel_link">Reservar!</a>
+                </p>
+    
+                </div>
+    
+            </section>
+    
+            <section class="box quarto__2">
+                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
+                <h1 class="hotel_nome">Suíte comum</h1>
+                <h3 class="hotel_cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+    
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+                <br>
+                <p>
+                    <a href="" class="hotel_link">Reservar!</a>
+                </p>
+    
+            </section>
+    
+            <section class="box quarto__3">
+                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
+                <h1 class="hotel_nome">Demi-suíte</h1>
+                <h3 class="hotel_cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+    
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+                <br>
+                <p>
+                    <a href="" class="hotel_link">Reservar!</a>
+                </p>
+    
+            </section>
+    
+            <section class="box quarto__4">
+                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
+                <h1 class="hotel_nome">Suíte Master</h1>
+                <h3 class="hotel_cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+    
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+                <br>
+                <p>
+                    <a href="" class="hotel_link">Reservar!</a>
+                </p>
+    
+            </section>
+    
         </article>
-        <figure>
-            <img src="" alt="imagem parque 1">
-            <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-        </figure>
-    </section>
-    <section class="box">
-        <article> 
-            <h1>Local 2 </h1>
-            <h2>Animado para os finais de semana</h2>
-            <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, distinctio.</p>
-        </article>
-        <figure>
-            <img src="" alt="imagem parque 2">
-            <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-        </figure>
-    </section>
-    <section class="box">
-        <article>
-            <h1>Local 3</h1>
-            <h2>Ideal para família</h2>
-            <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
-        </article>
-        <figure>
-            <img src="" alt="imagem parque 3">
-            <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-        </figure>
-    </section>
-</section>
+        <!-- fim container -->
+        <!-- <section class="retorno">
+            <section class="box">
+                <article>
+                    <h1>Local 1</h1>
+                    <h2>Tranquilidade para uma tarde</h2>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, id!</p>
+                </article>
+                <figure>
+                    <img src="" alt="imagem parque 1">
+                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
+                </figure>
+            </section>
+            <section class="box">
+                <article>
+                    <h1>Local 2 </h1>
+                    <h2>Animado para os finais de semana</h2>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, distinctio.</p>
+                </article>
+                <figure>
+                    <img src="" alt="imagem parque 2">
+                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
+                </figure>
+            </section>
+            <section class="box">
+                <article>
+                    <h1>Local 3</h1>
+                    <h2>Ideal para família</h2>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
+                </article>
+                <figure>
+                    <img src="" alt="imagem parque 3">
+                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
+                </figure>
+            </section>
+        </section> -->
 
-</main>
+        <section class="busca">
+            <form action="" method="post" id="dados" name="dados" class="form">
+                <fieldset>
+                    <p>
+                        <label for="">Selecione o período para visitação</label>
+                        <input type="date" name="disponibilidade" id="disponibilidade1">
+                    </p>
+                    <p>
+                        <label for="">Informe o nome da cidade</label>
+                        <input type="text" name="escopo" id="escopo1">
+                    </p>
+                    <p>
+                        <button class="botao" type="submit">Enviar</button>
+                    </p>
+                </fieldset>
+        </section>
 
-<footer class="menu inferior">
-   <ul>
-       <li>Entre em contato conosco</li>
-   </ul>
-</footer>
+
+
+
+
+
+
+    </main>
+
+    <footer class="rodape">
+        <p>Traveller Ltda</p>
+    </footer>
 </body>
