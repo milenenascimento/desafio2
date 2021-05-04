@@ -1,191 +1,156 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traveller - Hospedagem</title>
+    <title>Traveller</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+
 </head>
+
 <body>
-    <!-- Cabecalho -->
+
+    <!-- cabecalho -->
     <section class="container">
         <header class="header">
-            <h2><i class="fas fa-plane-departure"></i> Traveller</h2>
+            <h2 class="icone-airplane"><i class="fas fa-plane-departure"></i> Traveller</h2>
+
             <nav class="header__menu">
+
+
                 <ul class="links__menu">
-                    <li><a href="" class="header__menu__item">Compras</a></li><br>
-                    <li><a href="" class="header__menu__item">Hoteis</a></li><br>
-                    <li><a href="" class="header__menu__item">Gastronomia</a></li><br>
-                    <li><a href="" class="header__menu__item">Eventos</a></li><br>
-                    <li><a href="" class="header__menu__item">Lazer</a></li><br>
+                    <li class="header__menu__itens">Compras</li>
+                    <li class="header__menu__itens">Hoteis</li>
+                    <li class="header__menu__itens">Gastronomia</li>
+                    <li class="header__menu__itens">Eventos</li>
+                    <li class="header__menu__itens">Lazer</li>
                 </ul>
+
+
+
+                <!-- haburger responsividade -->
                 <div class="hamburger">
                     <div class="linha"></div>
                     <div class="linha"></div>
                     <div class="linha"></div>
                 </div>
+
+
             </nav>
         </header>
     </section>
-    <!-- fim do cabecalho -->
 
-    
     <main>
+        <!-- barra de busca e reserva -->
+        <section class="busca__reserva">
 
-        <article class="container__body">
+            <!-- busca -->
 
-            <section class="box quarto__1">
-    
-                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
-                <h1 class="hotel_nome">Parque 1</h1>
-                <h3 class="hotel_cidade">São Paulo - SP</h3>
-                <div class="hotel_avaliacao">
-    
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-    
-                </div>
-                <br>
-                <p>
-                    <a href="" class="hotel_link">Reservar!</a>
-                </p>
-    
-                </div>
-    
-            </section>
-    
-            <section class="box quarto__2">
-                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
-                <h1 class="hotel_nome">Parque 2</h1>
-                <h3 class="hotel_cidade">São Paulo - SP</h3>
-                <div class="hotel_avaliacao">
-    
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-    
-                </div>
-                <br>
-                <p>
-                    <a href="" class="hotel_link">Reservar!</a>
-                </p>
-    
-            </section>
-    
-            <section class="box quarto__3">
-                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
-                <h1 class="hotel_nome">Parque 3</h1>
-                <h3 class="hotel_cidade">São Paulo - SP</h3>
-                <div class="hotel_avaliacao">
-    
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-    
-                </div>
-                <br>
-                <p>
-                    <a href="" class="hotel_link">Reservar!</a>
-                </p>
-    
-            </section>
-    
-            <section class="box quarto__4">
-                <img src="./img/quarto_hotel.jpg" class="hotel_imagem" alt="foto-hotel">
-                <h1 class="hotel_nome">Parque 4</h1>
-                <h3 class="hotel_cidade">São Paulo - SP</h3>
-                <div class="hotel_avaliacao">
-    
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-    
-                </div>
-                <br>
-                <p>
-                    <a href="" class="hotel_link">Reservar!</a>
-                </p>
-    
-            </section>
-    
-        </article>
-        <!-- fim container -->
-        <!-- <section class="retorno">
-            <section class="box">
-                <article>
-                    <h1>Local 1</h1>
-                    <h2>Tranquilidade para uma tarde</h2>
-                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, id!</p>
-                </article>
-                <figure>
-                    <img src="" alt="imagem parque 1">
-                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-                </figure>
-            </section>
-            <section class="box">
-                <article>
-                    <h1>Local 2 </h1>
-                    <h2>Animado para os finais de semana</h2>
-                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, distinctio.</p>
-                </article>
-                <figure>
-                    <img src="" alt="imagem parque 2">
-                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-                </figure>
-            </section>
-            <section class="box">
-                <article>
-                    <h1>Local 3</h1>
-                    <h2>Ideal para família</h2>
-                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
-                </article>
-                <figure>
-                    <img src="" alt="imagem parque 3">
-                    <figcaption>#paracegover ipsum Lorem ipsum dolor sit amet.</figcaption>
-                </figure>
-            </section>
-        </section> -->
+            <section class="busca">
+                <input type="text" id="textodabusca" placeholder="Para onde vamos?">
 
-        <section class="busca">
-            <form action="" method="post" id="dados" name="dados" class="form">
-                <fieldset>
-                    <p>
-                        <label for="">Selecione o período para visitação</label>
-                        <input type="date" name="disponibilidade" id="disponibilidade1">
-                    </p>
-                    <p>
-                        <label for="">Informe o nome da cidade</label>
-                        <input type="text" name="escopo" id="escopo1">
-                    </p>
-                    <p>
-                        <button class="botao" type="submit">Enviar</button>
-                    </p>
-                </fieldset>
+            </section>
+
+
+
+            <!-- data  -->
+            <section class="data__reserva check-in">
+                <label for="dia"><h4>Informe o check-in:</h4></label>
+                <input type="date" id="dia" name="dia">
+            </section>
+
+            <section class="data__reserva check-out">
+                <label for="dia"><h4>Informe o check-out:</h4></label>
+                <input type="date" id="dia" name="dia">
+            </section>
+
+            <button>Buscar</button>
         </section>
 
 
 
+        <article class="container">
 
+            <section class="box secao__um">
+                <img src="./img/ibirapuera.jpeg" class="parque_img" alt="foto-parque-ibirapuera">
+                <h2 class="nome__parque"> Ibirapuera </h2>
+                <h3 class="cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
 
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+            </section>
+
+            <section class="box secao__dois">
+                <img src="./img/vila_lobos.jpeg" class="parque_img" alt="foto-parque-vila-lobos">
+                <h2 class="nome__parque"> Vila Lobos </h2>
+                <h3 class="cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+            </section>
+
+            <section class="box secao__tres">
+                <img src="./img/acimacao.jpeg" class="parque_img" alt="foto-parque-vila-lobos">
+                <h2 class="nome__parque"> Aclimação </h2>
+                <h3 class="cidade">São Paulo - SP</h3>
+                <div class="hotel_avaliacao">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+    
+                </div>
+               
+            </section>
+
+        </article>
+
+        <section class="container__dois">
+            
+
+        </section>
 
 
     </main>
 
-    <footer class="rodape">
-        <p>Traveller Ltda</p>
-    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- rodape -->
+    <Footer class="rodape">Traveller ltda</Footer>
+    <script src="./javascript/menu.js"></script>
 </body>
+
+</html>
