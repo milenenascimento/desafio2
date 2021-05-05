@@ -51,25 +51,33 @@
 
             <!-- busca -->
 
-            <section class="busca">
-                <input type="text" id="textodabusca" placeholder="Para onde vamos?">
-
+            <section class="search__box">
+                <input class="search__txt" type="text" name="busca de local de destino" placeholder="Onde vamos ?">
+              
+                <a class="search__btn" data-message="Esse é o botao para buscar seu destino" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+         
             </section>
 
 
 
             <!-- data  -->
             <section class="data__reserva check-in">
-                <label for="dia"><h4>Informe o check-in:</h4></label>
+                <label for="dia">
+                    <h4>Informe o check-in:</h4>
+                </label>
+                <input type="date" id="dia" name="dia">
+
+                <label for="dia">
+                    <h4>Informe o check-out:</h4>
+                </label>
                 <input type="date" id="dia" name="dia">
             </section>
 
-            <section class="data__reserva check-out">
-                <label for="dia"><h4>Informe o check-out:</h4></label>
-                <input type="date" id="dia" name="dia">
-            </section>
 
-            <button>Buscar</button>
+
+
         </section>
 
 
@@ -78,6 +86,8 @@
 
             <section class="box secao__um">
                 <img src="./img/ibirapuera.jpeg" class="parque_img" alt="foto-parque-ibirapuera">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, consequatur hic quia eum
+                    culpa exercitationem eos quae facere quas cumque!</figcaption>
                 <h2 class="nome__parque"> Ibirapuera </h2>
                 <h3 class="cidade">São Paulo - SP</h3>
                 <div class="hotel_avaliacao">
@@ -87,7 +97,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-    
+
                 </div>
             </section>
 
@@ -102,7 +112,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-    
+
                 </div>
             </section>
 
@@ -117,15 +127,15 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-    
+
                 </div>
-               
+
             </section>
 
         </article>
 
         <section class="container__dois">
-            
+
 
         </section>
 
@@ -149,7 +159,14 @@
 
 
     <!-- rodape -->
-    <Footer class="rodape">Traveller ltda</Footer>
+    <Footer class="rodape">
+        <h2> Traveller ltda </h2>
+
+        <section>
+
+        </section>
+    </Footer>
+
     <script src="./javascript/menu.js"></script>
 </body>
 

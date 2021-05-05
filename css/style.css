@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -11,6 +13,11 @@ ul {
 
 a {
     text-decoration: none;
+    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;;
 }
 
 .icone-airplane {
@@ -23,7 +30,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     height: 0px 15px;
-    
+
 }
 
 .header {
@@ -54,66 +61,117 @@ a {
 }
 
 .header__menu__itens:hover {
-    
+
     color: white;
 }
 
 
-.busca__reserva {
-   
-    align-items: center;
-    display: flex;
-    margin: 10px;
-    
-}
 
-.busca {
+.search__box {
     background-color:white;
     border:solid 1px #db4a39;
     border-radius:50px;  
-    width:15%;
+    width:30%;
     height:60px;
-    padding: 15px ;
-    
-  }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 35%;
+}
 
-  #textodabusca {
-    float:left;
-    background-color:transparent;
+.search__txt {
+    border: none;
+    outline: none;
+    position:left;
+    padding: 0;
+    color: red;
+    width: 50%;
+    font-size: 25px;
+    transition: 1s;
+    
+    margin-left: 0px;
+    
+    
+
+}
+
+.search__btn {
+    color: red;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #353b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -15%;
+    
+
+
+}
+
+.search__btn:hover {
+    color:  wheat;
+    background-color: violet;
+}
+
+
+
+#textodabusca {
+    float: left;
+    background-color: transparent;
     border: none;
     border-radius: 50px;
     height: 100%;
-    font-size:18px;   
+    font-size: 18px;
     width: 100%;
     text-align: center;
 
-  }
+}
 
-  
- .data__reserva {
-     
-     margin: 25px;
- }
- main {
-    
-     width: 100%;
-     height: 84vh;
- }
+.data__reserva input {
+    border-radius: 50px;
+    border-color: #db4a39;
+    width: 250px;
+    padding: 5px 28px;
+}
+
+.check-in {
+    display: flex;
+    padding-top: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.check-in h4 {
+    padding: 15px;
+}
+
+main {
+
+    width: 100%;
+    height: 84vh;
+}
 
 
 
- .box {
-   
+.box {
+
     border-radius: 15px 15px 0px 0px;
     width: 28%;
     height: 40vh;
     margin: 10px auto;
-       
-    text-align: center;
-    
- }
 
- .parque_img{
+    text-align: center;
+
+}
+
+.parque_img {
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0px 0px;
@@ -127,7 +185,11 @@ a {
     text-align: center;
     color: bisque;
     padding: 15px;
-    
+
+}
+
+.search-box {
+    display: none;
 }
 
 @media(max-width:750px) {
@@ -166,7 +228,7 @@ a {
 
     .links__menu {
         width: 250px;
-        height: 54%;
+        height: 65%;
         padding-right: 1px;
         background-color: rgba(245, 216, 129, 0.425);
         position: fixed;
@@ -176,7 +238,7 @@ a {
         transition: 1s;
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px 2px 155px;   
+        padding: 10px 2px 155px;
 
     }
 
@@ -184,7 +246,7 @@ a {
         padding: 8% 100px 20px 19px;
         border-radius: 50px;
         width: 100%;
-        background-color: #333;
+        background-color: #666;
         color: #ccc;
         text-transform: uppercase;
         font-weight: 900;
@@ -194,39 +256,36 @@ a {
         right: 0px;
     }
 
-    .busca {
+
+    .search__box {
         
-        background-color:white;
-        border:solid 1px #db4a39;
-        border-radius:50px;  
-        width:100%;
-        height:60px;
-        padding: 0px ;
-        margin-top: 50px;
-      }
+        
+        width: 100%;
+        margin: 60px 0px 2px 0px ;
+    }
+
 
     .data__reserva {
-        margin: 25px;
+        
+        margin: 50px 100px 10px 100px;
         display: flex;
         flex-direction: column;
     }
-    .busca__reserva{
 
-        flex-direction: column;
-    }
+    
 
     @media(max-width: 600px) {
         .box {
             width: 100%;
             font-size: 1em;
-           /* topo | direita | inferior | esquerda */
-            margin: 52px 1em 0 auto; 
+            /* topo | direita | inferior | esquerda */
+            margin: 52px 10px 80px 10px;
         }
     }
 
-   
 
-    .rodape{
-        display: none;
+
+    .rodape {
+     display: none;
     }
 }
