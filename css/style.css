@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -17,7 +17,7 @@ a {
 }
 
 html {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 .icone-airplane {
@@ -25,19 +25,32 @@ html {
 }
 
 .container {
+    border:solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    height: 0px 15px;
+    height: 0px 25px;
+   
+ 
+}
 
+.container_baner img {
+    width: 50px;
+    height: 50px;
+}
+.busca__reserva {
+    width: 100%;
+    height: 10%;
+    
 }
 
 .header {
+    border: solid;
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #db4a39;
-    padding: 0px 10px;
+    padding: 0px 0px 0px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,6 +67,7 @@ html {
     margin: 15px 5px 15px;
     border-radius: 5px;
     color: bisque;
+    
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -68,6 +82,7 @@ html {
 
 
 .search__box {
+    
     background-color:white;
     border:solid 1px #db4a39;
     border-radius:50px;  
@@ -77,8 +92,11 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    padding: 1% 10px 20px 5px;
     margin-left: 35%;
+    margin-top: 10px;
+    margin-left: 35%;
+    
 }
 
 .search__txt {
@@ -153,27 +171,89 @@ html {
 }
 
 main {
-
+background-color: white;
     width: 100%;
-    height: 84vh;
+    height: 370vh;
+    
 }
 
+.chamada {
+    padding: 50px;
+    text-align: left;
+    width: 100%;
+    height: 500px;
+    font-size: 58px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-weight: bold;
+    background-image: url(../img/aviao-sobrevoand-nuvens.jpg);
+    background-size: 100%;
+    background-position-y: -215px ;
 
+    background-repeat: no-repeat;
+    
+    
+}
+
+.chamada button {
+   margin-top: 15px;
+   width: 90px;
+   height: 40px;
+   border: solid 1px black;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    
+}
+.chamada button:hover {
+
+     background-color: white;
+     color: black;
+     font-family: 'Roboto', sans-serif;
+     
+ }
+
+ .chamada__dica {
+     /* border: solid; */
+     margin-left: 37px ;
+    font-size: 25px;
+    font-weight: bold;
+
+ }
 
 .box {
-
+    border: solid;
     border-radius: 15px 15px 0px 0px;
-    width: 28%;
-    height: 40vh;
-    margin: 10px auto;
-
+    width: 30%;
+    height: 59vh;
+    margin: 25px  ;
+    justify-content: space-around;
+    overflow: hidden;
     text-align: center;
 
 }
 
+.legenda {
+   text-align: justify;
+    width: 540px;
+    height: 100px;
+}
+.legenda b {
+    color: brown;
+    font-weight: 900;
+    
+}
+.hotel_avaliacao {
+    
+}
+
 .parque_img {
     width: 100%;
-    height: 250px;
+    height: 255px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -191,6 +271,109 @@ main {
 .search-box {
     display: none;
 }
+
+
+.container__dois {
+    /* border: solid; */
+    margin-top: 35px;
+
+}
+.container__dois h2 {
+    margin-left: 35px;
+}
+.box__sugestao__um {
+    border:solid 1px;
+    width: 70%;
+    height: 270px;
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 250px;
+}
+
+.box__sugestao__um  p {
+    margin-top: 30px;
+    width: 500px;
+    
+}
+
+.box__sugestao__dois {
+    border:solid 1px;
+    width: 70%;
+    height: 270px;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 250px;
+
+}
+.box__sugestao__dois p {
+    margin-top: 30px;
+    width: 500px;
+}
+
+
+.box__sugestao__um button {
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border: solid 1px black;
+     border-radius: 5px;
+     background-color: black;
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+     color: white;
+    
+
+     
+ }
+ .box__sugestao__um button:hover {
+ 
+      background-color: white;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+ }
+  
+ .box__sugestao__dois button {
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border: solid 1px black;
+     border-radius: 5px;
+     background-color: black;
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+     color: white;
+    
+
+     
+ }
+ .box__sugestao__dois button:hover {
+ 
+      background-color: white;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+
+/* .container__dois {
+    margin-top: 29%;
+    margin-right: 0;
+    border: solid;
+    width: 100%;
+    height: 80px;
+} */
 
 @media(max-width:750px) {
     .header {
@@ -261,26 +444,113 @@ main {
         
         
         width: 100%;
-        margin: 60px 0px 2px 0px ;
+        margin: 70px 0px 0px 0px ;
     }
-
+    .search__btn {
+        color: red;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #353b48;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: -15%;
+        
+    
+    
+    }
 
     .data__reserva {
         
-        margin: 50px 100px 10px 100px;
+        margin: 10px 50px 15% 50px;
         display: flex;
         flex-direction: column;
     }
 
-    
+    .chamada {
+      font-size: 35px;
+      background-size:100% ;
+      background-position: 120%;
+    margin-top: 25px;
+    }
+
+    .chamada h1 {
+        margin-top: 60px;
+        color: white;
+    }
+
+    .legenda {
+        border: solid;
+        width: 100%;
+        height: 100px;
+    }
+
+.box {
+
+}
 
     @media(max-width: 600px) {
         .box {
             width: 100%;
             font-size: 1em;
             /* topo | direita | inferior | esquerda */
-            margin: 52px 10px 80px 10px;
+            margin: 102px 10px 89px 10px;
         }
+        
+        .box__sugestao__um {
+            border:solid 1px;
+            width: 100%;
+            height: 600px;
+            flex-direction: column;
+            margin-left: 0;
+            margin: 15px 0px 0px 0px;
+            
+        }
+        
+        .box__sugestao__um  p {
+            margin: 15px 0px 0px 0px;
+            width: 500px;
+            
+        }
+
+        .box__sugestao__um button {
+            margin-top: 15px;
+            margin-left: 40%;
+           
+            
+        
+             
+         }
+
+         .box__sugestao__dois {
+            border:solid 1px;
+            width: 100%;
+            height: 600px;
+            flex-direction: column;
+            margin-left: 0;
+            margin: 15px 0px 0px 0px;
+            
+        }
+        
+        .box__sugestao__dois  p {
+            margin: 15px 0px 0px 0px;
+            width: 500px;
+            
+        }
+
+        .box__sugestao__dois button {
+            margin-top: 15px;
+            margin-left: 40%;
+            
+           
+            
+        
+             
+         }
+
     }
 
 
